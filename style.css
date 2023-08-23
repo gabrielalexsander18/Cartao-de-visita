@@ -1,0 +1,186 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+main {
+    background-image: url(https://embraer.bynder.com/m/6744e44a54a6549a/original/Lineage1000E_Exterior-Flight-Mountains.jpg);
+    Background-size: cover;
+    min-height: 150vh;
+}
+
+.container-background {
+    background-color: rgb(119,136,153,0.5);
+    min-height: 150vh;
+}
+
+.container-foto-perfil {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-perfil {
+    border-radius: 500px;
+    width: 300px;
+    margin-top: 65px;
+    margin-bottom: 20px;
+}
+
+.container-specification {
+    background-color: rgb(176,196,222,0.2);
+    width: 700px;
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 auto 50px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.paragrafo-cargos {
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-endereço {
+    font-weight: 100;
+}
+
+.container-contacts{
+    background-color: rgb(176,196,222,.4);
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    padding: 5px 15px;
+}
+
+.img-contacts {
+    width: 50px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+.paragrafo-phoneEmail {
+    font-weight: 300;
+    height: 20px;
+    margin-bottom: 5px;
+}
+
+.palavra-emBold {
+    font-size: 19px;
+}
+
+.link-zapLinkedin {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.paragrafo-zapLinkedin {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (min-width: 1455px) {  /* monitor acima de 24" Polegadas */
+    .foto-perfil {
+        width: 400px;
+        margin-bottom: 25px;
+    }
+
+    .container-specification {
+        width: 800px;
+    }
+
+    h1 {
+        font-size: 45px;
+    }
+
+    .paragrafo-cargos {
+        font-size: 25px;
+    }
+
+    .paragrafo-endereço {
+        font-size: 18px;
+    }
+
+    .container-contacts{
+        margin: 0 auto 30px;
+        padding: 10px 20px;
+        width: 450px;
+    }
+
+    .img-contacts {
+        width: 65px;
+    }
+
+    .paragrafo-phoneEmail {
+        height: 30px;
+        margin-bottom: 10px;
+    }
+
+    .palavra-emBold {
+        font-size: 23px;
+    }
+}
+
+@media screen and (max-width: 720px) {  /* iphone 12 Pro */
+    main {
+        Background-size: 120vh;
+        background-repeat: no-repeat;
+        background-image: url(./assets/background-aviao-cortada.jpg);
+        min-height: 100%;
+    }
+
+    .container-background {
+        min-height: 100vh;
+    }
+    
+    .foto-perfil {
+        border-radius: 500px;
+        width: 200px;
+        margin-top: 50px;
+        margin-bottom: 15px;
+    }
+    
+    .container-specification {
+        width: 370px;
+        margin-bottom: 25px;
+    }
+    
+    h1 {
+        font-size: 27px;
+    }
+    
+    .paragrafo-cargos {
+        font-size: 17px;
+        margin-bottom: 10px;
+    }
+    
+    .paragrafo-endereço {
+        font-size: 15px;
+    }
+    
+    .container-contacts{
+        width: 340px;
+        margin-bottom: 15px;
+    }
+    
+    .palavra-emBold {
+        font-size: 18px;
+    }
+}
